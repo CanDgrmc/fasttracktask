@@ -1,0 +1,39 @@
+questions:
+  - id: 1
+    question: test question
+    answer: 2
+    quizId: 1
+  - id: 2
+    question: test question2
+    answer: 2
+    quizId: 1
+  - id: 3
+    question: test question3
+    answer: 2
+    quizId: 1
+  - id: 4
+    question: test question4
+    answer: 2
+    quizId: 1
+answers:
+  - id: 1
+    answer: test answer
+    questionId: 1
+  - id: 2
+    answer: test answer2
+    questionId: 1
+  - id: 3
+    answer: test answer
+    questionId: 2
+  - id: 4
+    answer: test answer2
+    questionId: 2
+  - id: 5
+    answer: test answer2
+    questionId: 3
+  - id: 6
+    answer: test answer2
+    questionId: 3
+
+port: 3000
+log_level: debug
